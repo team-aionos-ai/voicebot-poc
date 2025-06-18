@@ -1,0 +1,11 @@
+[theme]
+primaryColor="#007BFF"
+backgroundColor="#0A0F18"
+secondaryBackgroundColor="#E4E7EB"
+textColor="#F5F7FA"
+
+[ui]
+hideTopBar = true
+
+[client]
+showSidebarNavigation = false
