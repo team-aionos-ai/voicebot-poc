@@ -15,7 +15,7 @@ st.set_page_config(
 
 # Function to reset API data
 def call_reset_api():
-    reset_endpoint = "http://13.201.227.194:8502/reset_transcript"
+    reset_endpoint = "https://voicebot-poc-backend-production.up.railway.app/reset_transcript"
     try:
         response = requests.post(reset_endpoint)
         if response.status_code == 200:
@@ -181,7 +181,7 @@ def main():
     
     with col2:
         step_placeholder = col2.empty()
-        api_url = "http://13.201.227.194:8502/get_transcript"
+        api_url = "https://voicebot-poc-backend-production.up.railway.app/get_transcript"
         
         while True:
             transcript_data = fetch_transcript(api_url)
